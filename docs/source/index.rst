@@ -1,6 +1,8 @@
 .. image:: images/banner.png
 
 
+
+
 .. note::
 
    Dieses Handbuch stellt keine vollständige Dokumentation dar. 
@@ -12,5 +14,4 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   todos
