@@ -102,4 +102,4 @@ Alle weiteren Einstellungen finden sie in den Programmen:
     Ziehen Sie im Ubuntu-Menü die oben stehenden Einträge "aufeinander". Somit erstellen Sie einen Ordner.
     Wenn Sie dann auf den Ordner klicken, können Sie dann oben rechts den Namen des Ordners ändern.
 
-    .. image:: images/einstellunsMenue.png
+.. image:: images/einstellunsMenue.png
