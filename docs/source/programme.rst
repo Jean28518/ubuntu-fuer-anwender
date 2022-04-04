@@ -64,7 +64,7 @@ Zwei Quellen sind standardmäßig in Ubuntu aktiviert:
 Snap
 ^^^^
 Snap ist die neue Technologie von Ubuntu, auf Linux Programme zu installieren und auszuführen.
-Alle verfügbaren Anwendungen kann man auch auf `Snapcraft.io <https://snapcraft.io>`_ durchstöbern, den sog. ``Snap-Store``.
+Alle verfügbaren Anwendungen kann man auch auf `Snapcraft.io <https://snapcraft.io>`_ durchstöbern, dem sog. ``Snap-Store``.
 
 Snaps haben den Vorteil, dass sie auf jedem Linux unabhängig von der Version laufen sollen und in der Regel top aktuelle Versionen eines Programms bieten.
 Dazu laufen sie in ihrem eigenen kleinen "Linux", auch Sandkasten genannt.
@@ -113,6 +113,7 @@ In diesem Kurs werden vereinzelt Anwendungen vorgestellt, welche sich in Ubuntu 
     Um Flatpak auf Ubuntu zu installieren muss man leider einmalig das Terminal benutzen:
     ``sudo apt install gnome-software gnome-software-plugin-flatpak flatpak -y && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo``
     Danach kann man in der neuen Anwendung ``Software`` Flatpak-Pakete installieren.
+    (Alternativ kann man natürlich auch Terminal-Befehle nutzen, wenn man das möchte.)
 
 
 .deb Dateien aus dem Internet
@@ -138,7 +139,7 @@ Beispielsweise wären das:
 - weitere Anwendungen, die man nicht in Ubuntu-Software finden kann und keine Fremdquellen unterstützen.
 
 Um eine .deb Datei zu installieren, reicht es, diese herunterzuladen.
-Danach sollte man diese mit ``Software-Installtion`` starten.
+Danach sollte man diese mit ``Software-Installation`` starten.
 Letztendlich kann man wie gewohnt auf ``Installieren`` drücken.
 
 
@@ -170,7 +171,7 @@ was bei .deb Dateien aus dem Internet normalerweise nicht der Fall ist.
     Google Chrome macht dies beispielsweise. (Dies muss nicht unbedingt ein PPA sein, wäre aber hier etwas zu weit ausgeholt)
 
 Um ein PPA Ubuntu hinzuzufügen, muss hier wieder ein Terminal-Befehl eingegeben werden. Ein Beispiel wäre:
-``flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo``
+``sudo add-apt-repository ppa:lutris-team/lutris``
 
 Anschließend kann man die Anwendung aus dem PPA ganz einfach in Ubuntu-Software finden.
 
