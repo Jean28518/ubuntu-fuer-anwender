@@ -2,11 +2,11 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Ubuntu für Anwender'
+copyright = '2021, linuxguides.de'
+author = 'linuxguides.de'
 
-release = '0.1'
+release = '1.0'
 version = '0.1.0'
 
 # -- General configuration
