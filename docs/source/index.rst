@@ -1,7 +1,6 @@
 .. image:: images/banner.png
 
-
-
+| 
 
 .. note::
 
@@ -9,8 +8,8 @@
    Es ist dafür gedacht, den Überblick während des Kurses zu behalten
    und Befehle oder Routinen später nachzuschlagen.
 
-Contents
---------
+Inhalt
+------
 
 .. toctree::
 
