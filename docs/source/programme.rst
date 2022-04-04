@@ -135,10 +135,11 @@ Beispielsweise wären das:
 
 - Google Chrome
 - Softmaker Office
-- weitere Anwendungen, die man nicht in der Anwendungsverwaltung finden kann und keine Fremdquellen unterstützen.
+- weitere Anwendungen, die man nicht in Ubuntu-Software finden kann und keine Fremdquellen unterstützen.
 
-Um eine .deb Datei zu installieren reicht es, diese herunterzuladen
-und mit einem Doppelklick zu "starten", und auf ``Paket installieren`` zu drücken.
+Um eine .deb Datei zu installieren, reicht es, diese herunterzuladen.
+Danach sollte man diese mit ``Software-Installtion`` starten.
+Letztendlich kann man wie gewohnt auf ``Installieren`` drücken.
 
 
 AppImages
@@ -146,7 +147,7 @@ AppImages
 
 AppImages sind ganz spezielle Dateien: Sie enthalten alles, was eine Anwendung zum Laufen braucht.
 Eine Installation ist nicht nötig. Es reicht lediglich, diese in einen Ordner (beispielsweise 'Programme') zu verschieben
-und diese in den Datei-Eigenschaften als ausführbar zu markieren. (Siehe Benutzer und Berechtigungen)
+und diese in den Datei-Eigenschaften unter Zugriffsrechte als ausführbar zu markieren. (Siehe Benutzer und Berechtigungen)
 Danach kann man das Programm durch einen Doppelklick auf die AppImage Datei starten.
 
 .. tip:: 
@@ -168,12 +169,11 @@ was bei .deb Dateien aus dem Internet normalerweise nicht der Fall ist.
     Manche .deb Dateien richten automatisch eine Fremdquelle ein und stellen sicher, dass das Programm automatisch Updates erhält.
     Google Chrome macht dies beispielsweise. (Dies muss nicht unbedingt ein PPA sein, wäre aber hier etwas zu weit ausgeholt)
 
-Mit dem Programm ``Anwendungspaketquellen`` kann man PPAs und weitere zusätzliche Fremdquellen einsehen und konfigurieren.
+Um ein PPA Ubuntu hinzuzufügen, muss hier wieder ein Terminal-Befehl eingegeben werden. Ein Beispiel wäre:
+``flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo``
 
-Hat man eine neue Fremdquelle hinzufügt, kann man nach dem Aktualisieren des Zwischenspeichers die Anwendungen in der Anwendungsverwaltung finden.
+Anschließend kann man die Anwendung aus dem PPA ganz einfach in Ubuntu-Software finden.
 
-.. note:: 
-    Dafür muss man zusätzlich in der Anwendungsverwaltung im Burger-Menü rechts neben der Suche ``Bitte die Paketliste auffrischen`` auswählen.
 
 .tar.gz oder .zip Dateien
 -------------------------
@@ -192,4 +192,4 @@ Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbar
 
 Sollte man keine ausführbare Datei finden und liegt stattdessen eine Datei mit dem Namen
 ``Makefile`` vor, muss man dieses Programm erst kompilieren. 
-Dies wird allerdings im *Linux Mint für Fortgeschrittene* Kurs behandelt.
+Dies wird allerdings im *Linux für Fortgeschrittene* Kurs behandelt.
