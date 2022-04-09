@@ -1,63 +1,59 @@
 Dateien
 ================
 
-Der vorinstallierte Dateimanager (nemo) ist unserer Ansicht nach einer der besten oder sogar der beste, den die Linux-Welt zu bieten hat.
-Der Windows-Explorer kann unserer Meinung nach hier nicht mithalten.
+Ansichtseinstellungen
+---------------------
 
-Ansichtsoptionen
-----------------
-.. image:: images/nemo_ansichtsoptionen.png
+.. image:: images/nautilus_ansichtseinstellungen.png
 
-Gehen wir die Symbole von links nach rechts durch:
+- (1) Hier kann man zwischen der Symbolansicht und der Listenansicht umschalten. Letztere zeigt mehrere Informationen über die Dateien wie bspw. das letzte Änderungsdatum.
+- (2) Hier kann man die Symbolgröße der Ordner und die Sortierung einstellen. 
+- (3) Hier können neue Fenster, Tabs und neue Ordner erstellt werden. Außerdem können hier verborgene Dateien angezeigt und die linke Seitenleiste verborgen werden.
 
-- **Pfadeingabe:** Damit kann man die Pfad-Ansicht umschalten. Dies ist sehr praktisch, wenn man mal einen Pfad kopieren möchte.
-- **Suche:** Hiermit kann man entweder Dateien vom aktuellen Ordner aus durchsuchen. Sogar nach dem Inhalt von Dateien kann man suchen. Somit bleibt keien Datei verloren.
-- **Symbolansicht:** Die "normale" Ansicht von Ordnern. Man kann die Standard-Ansicht in den Einstellungen definieren. Ansonsten wird die gewählte Ansicht nur für den aktuellen Ordner gespeichert.
-- **Listenansicht:** Mit der erweiteren Ansicht kann man nach verschiedenen Kategorien wie bspw. dem Änderungsdatum sortieren. Mit einem Rechtsklick auf die Kategorien-Leiste kann man die Parameter definieren.
-- **Kompaktansicht:** Probieren Sie es aus! Aber keine von uns nitzt diese Ansicht im Alltag.
-
-.. tip:: 
-    Schon gewusst? Mit der Taste ``F3`` kann man eine Zwei-Listen-Ansicht an- und ausschalten. Dies ist sehr hilfreich, wenn man Dateien kopieren möchte.
 
 .. tip:: 
     Mit der Tastenkombination ``Strg`` + ``H`` kann man versteckte Dateien ein- und ausblenden.
 
-Weitere Tabs kann man mit ``Strg`` + ``T`` erstellen.
+.. tip::
+    Mit der Taste ``F5`` kann der Ordner aktualisiert werden.
+
+.. tip::
+    Weitere Tabs kann man mit ``Strg`` + ``T`` erstellen, Neue Fenster mit ``Strg`` + ``N``.
+
+Suche
+-----
+
+.. image:: images/nautilus_suche.png
+
+Tippen Sie einen normalen Buchstaben im Dateimanager, wird automatisch der Such-Modus gestartet. 
+Unter dem im Bild Markierten Knopf können Sie ganz konkrete Such-Kriterien bezüglich letztem Änderungsdatum und dem Datei-Typ machen.
+Außerdem haben Sie darunter die Option, entweder auch Datei-Inhalte (= Gesamter Text) oder nur die Dateinamen zu durchsuchen.
+
+Mit der ``Esc`` Taste brechen Sie die Suche wieder ab.
 
 Lesezeichen
 -----------
 Sie können für häufig genutzte Ordner Lesezeichen anlegen. 
 Ziehen Sie dafür einfach den gewünschten Ordner an die Seitenleiste unter 'Lesezeichen'.
-Das Lesezeichen ist somit unter allen Auswahldialogen, im Dateimanager und im Startmenü unter 'Orte' gelistet.
+Das Lesezeichen ist somit unter allen Auswahldialogen und im Dateimanager schnell aufzurufen.
 
 Es empfiehlt sich sehr, die Lesezeichenliste nach Alphabet zu sortieren. Dies muss manuell bewerkstelligt werden.
 
 Favoriten
 ---------
-Sie können beliebige Dateien oder Ordner als Favorit markieren. 
-Favoriten erhalten einen eigenen Eintrag im Dateimanager, sind als Stern markiert,
-haben einen eigenen Eintag im Startmenü, sind in der Leiste rechts unten unter dem Sternsymbol aufrufbar
-und können in verschiedenen Anwendungen direkt geöffnet werden.
+Sie können beliebige Dateien oder Ordner als Favorit markieren (Rechtsklick).
+Favoriten erhalten einen eigenen Eintrag im Dateimanager.
 
-Angeheftete Einträge
---------------------
-Um im Dateimanager gewisse Ordner oder Dateien als erstes anzeigen zu lassen können Sie diese mit einem Rechtsklick darauf anheften.
-
-
-.. tip:: 
-    **Was sollte man wofür nutzen?**
-    Wir empfehlen:
-
-    - **Lesezeichen:** Momentan oft aufgerufene Ordner/Projekte
-    - **Favoriten:** Dateien, die man einfach immer verwendet. Bspw. Kundendatenbanken, Rechnungsvorlagen oder ganz persönliche "Schmierzettel"
-    - **Angeheftete Einträge:** Gewisse Einträge in einem Ordner, die man häufig braucht, wenn man diesen Ordner aufruft. Bspw. Ressourcen, Anforderungen, Meetings
+Wir empfehlen, häufig verwendete Dateien als Favoriten abzuspeichern. Ordner sollten im Besten Fall nur als Lesezeichen abgespeichert werden.
 
 Verknüpfungen
 -------------
 Um Verknüpfungen zu erstellen, halten Sie ``Strg`` + ``Shift`` gedrückt und ziehen Sie mit der Maus einen Ordner oder eine Datei an die Stelle,
-an der Sie die Verknüpfung haben wollen. Die Zwei-Listen-Ansicht mit ``F3`` ist dafür sehr hilfreich.
+an der Sie die Verknüpfung haben wollen. 
 
-Andernfalls können Sie eine Verknüpfung mit ``Strg`` + ``M`` erstellen.
+Andernfalls können Sie eine Verknüpfung mit ``Shift`` + ``Strg`` + ``M`` erstellen.
+
+TODO: FUNKTIONIERT IRGENDWIE NOCH NICHT!!
 
 
 Archive erstellen und Entpacken
@@ -68,13 +64,12 @@ Sie benötigen dazu keine externes Programm.
 Archiv erstellen
 ^^^^^^^^^^^^^^^^
 - Klicken Sie mit der rechten Maustaste auf einen Ordner oder eine Datei und wählen Sie ``Komprimieren ...`` aus.
-- Nun können Sie den Dateinamen und das Archiv-Format definieren. ``.tar.gz`` Dateien können in der Regel nur Unix-Systeme lesen. Mit ``.zip`` Archiven machen Sie meist nichts falsch.
-- Unter ``Erweitere Einstellungen`` können Sie bei manchen Archiven-Formaten beispieslweise ein Passwort definieren.
-- Klicken Sie nun auf ``Anlegen``. Je nach Größe des Ordners kann dies einige Minuten dauern.
+- Nun können Sie den Dateinamen und das Archiv-Format definieren. ``.tar.xz`` Dateien können in der Regel nur Unix-Systeme lesen. Mit ``.zip`` Archiven machen Sie meist nichts falsch.
+- Klicken Sie nun auf ``Erstellen``. Je nach Größe des Ordners kann dies einige Minuten dauern.
 
 Archiv entpacken
 ^^^^^^^^^^^^^^^^
-- Klicken Sie mit der rechten Maustastem auf ein Archiv.
+- Klicken Sie mit der rechten Maustaste auf ein Archiv.
 - Wählen Sie ``Hier entpacken`` aus.
 
 .. note:: 
@@ -83,18 +78,8 @@ Archiv entpacken
 
 Auf entfernte Server zugreifen
 ------------------------------
-Wählen Sie im Startmenü ``Verbinden mit...`` aus, oder wählen Sie im Dateimanager ``Datei -> Mit Server verbinden...`` aus.
-
-Folgende Verbindungstypen sind verfügbar:
-
-- SSH
-- FTP
-- Windows Freigabe
-- WebDAV
-- Sicheres WebDAV
-
-Geben Sie jeweils die Serveradresse und häufig Benutzerdetails an, um auf die Server zuzugreifen.
-Im Ornder-Feld reicht in den allermeisten Fällen ``/`` vollkommen aus.
+- Wählen Sie in Dateien ``+ Andere Orte`` aus.
+- Geben Sie unten bei ``Mit Server verbinden`` eine gültige Adresse ein. Ein Beispiel wäre: ``ftp://www.example.com/ordner/unterordner``
 
 Danach sind die Verbindungen in der Seitenleiste des Dateimanagers unter 'Netzwerk' verfügbar.
 
