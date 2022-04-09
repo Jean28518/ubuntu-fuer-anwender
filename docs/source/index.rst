@@ -17,3 +17,7 @@ Inhalt
    programme  
    netzwerkeinstellungen
    onlinekonten
+   drucker
+   buero
+   nuetzliche_programme
+   dateien
