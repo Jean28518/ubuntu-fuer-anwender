@@ -63,9 +63,7 @@ Das Programm gibt es für Linux, Windows, Android und in Zukunft auch für iOS.
 
 Startmedienersteller
 ----------------------
-Auf Linux Mint sind die Programme ``USB-Stick-Formatierer`` und ``USB-Abbilderstellung`` bereits vorinstalliert.
-
-Mit der USB-Abbilderstellung können Sie beispieslweise ``.iso`` Dateien auf einen USB-Stick schreiben.
+Mit dem Startmedienersteller können Sie beispieslweise ``.iso`` Dateien auf einen USB-Stick schreiben.
 Damit können Sie dann auf anderen Rechnern bspw. Linux installieren.
 
 
