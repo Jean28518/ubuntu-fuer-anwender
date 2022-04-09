@@ -1,5 +1,5 @@
 Dateien
-================
+=======
 
 Ansichtseinstellungen
 ---------------------
@@ -87,7 +87,7 @@ Danach sind die Verbindungen in der Seitenleiste des Dateimanagers unter 'Netzwe
 Ordner freigeben
 ----------------
 .. note:: 
-    Dazu muss das Paket ``Samba`` installiert sein und ggf. die Anwendung ``SAMBA`` in den Firewall-Regeln hinzugefügt sein. 
+    Dazu in der Firewall die Regel ``SAMBA`` hinzugefügt sein. 
     Außerdem muss der aktuelle Benutzer in der Gruppe ``sambashare`` sein. (Siehe Kapitel *Benutzer und Berechtigungen*)
 
 Klicken Sie mit der rechten Maustaste auf den gewünschten Ordner und wählen Sie ``Freigabeoptionen``. 
