@@ -14,4 +14,6 @@ Inhalt
 .. toctree::
 
    todos
-   programme
+   programme  
+   netzwerkeinstellungen
+   onlinekonten
