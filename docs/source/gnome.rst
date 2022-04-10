@@ -110,3 +110,11 @@ Die Einstellungen sind vielfältig aber selbstverständlich. Die empfohlenen Ein
 - ``Strg`` + ``Alt`` + ``Pfeiltaste nach rechts`` : Zur rechten Arbeitsfläche wechseln
 - ``Strg`` + ``Alt`` + ``Pfeiltaste nach links`` : Zur rechten Arbeitsfläche wechseln
 - ``Strg`` + ``Àlt`` + ``Entf``: Ausschalten-Dialog anzeigen
+
+Probleme mit der Oberfläche?
+----------------------------
+Funktioniert eine gewisse Anwendung nicht oder hat Probleme in der Darstellung?
+Probieren Sie, ``Ubuntu auf Xorg``, was Sie beim Anmeldebildschirm unter dem Zahnrad auswählen können.
+Dies ist das alte Protokoll für das Display.
+
+.. image:: images/anmeldebidlschirm_gnome.png
