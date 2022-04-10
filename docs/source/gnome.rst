@@ -50,5 +50,8 @@ Möchte man anstattdessen eine statische Anzahl an Arbeitsflächen definieren, k
     Zwischen den Arbeitsflächen kann man mit der Tastenkombination ``Strg`` + ``Alt```+ ``->`` oder ``<-``hin und her wechseln.
 
 
+Darstellung
+-----------
 
+Einstellungen bezüglich eines hellen und dunklen Designs, Farben, Schreibtischleiste, und der linken Leiste können in ``Darstellung`` gefunden werden.
 
