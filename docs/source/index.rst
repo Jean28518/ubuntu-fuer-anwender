@@ -21,3 +21,4 @@ Inhalt
    buero
    nuetzliche_programme
    dateien
+   gnome
