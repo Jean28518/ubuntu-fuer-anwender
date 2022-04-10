@@ -112,10 +112,10 @@ In diesem Kurs werden vereinzelt Anwendungen vorgestellt, welche sich in Ubuntu 
 | **Flatpak auf Ubuntu einrichten:**
 | - In Ubuntu-Software nach ``gnome-software`` suchen und dies ggf installieren. 
 | - Unter ``Erweiterungen`` im gnome-software Eintrag die Flatpak Unterstützung installieren (siehe Abbildung) 
-| - Installiere folgende Datei: `https://flathub.org/repo/flathub.flatpakrepo <https://flathub.org/repo/flathub.flatpakrepo>`_ (öffnen mit ``Anwendungsinstallation``) 
+| - Installieren Sie folgende Datei: `https://flathub.org/repo/flathub.flatpakrepo <https://flathub.org/repo/flathub.flatpakrepo>`_ (öffnen mit ``Anwendungsinstallation``) 
 | - Den Rechner neustarten. 
 | Danach kann man in der Anwendung ``Software`` (nicht Ubuntu-Software!!) Flatpak-Pakete installieren. 
-| Es empfiehlt sich, ``Ubuntu-Software`` zu deinstallieren, da unter ``Software`` ebenfalls alle anderen Pakete verfügbar sind.
+| Es empfiehlt sich, Ubuntu-Software (heißt eigentlich "Snap Store") zu deinstallieren, da unter ``Software`` ebenfalls alle anderen Pakete verfügbar sind.
 
 .. image:: images/install_flatpak_plugin.png
 
