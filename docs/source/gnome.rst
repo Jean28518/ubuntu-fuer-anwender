@@ -47,7 +47,7 @@ So kann man beliebig viele Arbeitsflächen erstellen.
 Möchte man anstattdessen eine statische Anzahl an Arbeitsflächen definieren, kann man dies in den Einstellungen unter ``Multitasking`` erledigen.
 
 .. tip::
-    Zwischen den Arbeitsflächen kann man mit der Tastenkombination ``Strg`` + ``Alt```+ ``->`` oder ``<-``hin und her wechseln.
+    Zwischen den Arbeitsflächen kann man mit der Tastenkombination ``Strg`` + ``Alt```+ ``->`` oder ``<-`` hin und her wechseln.
 
 
 Darstellung
