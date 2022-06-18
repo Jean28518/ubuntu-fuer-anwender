@@ -24,16 +24,16 @@ Nach der Treiber-Installation ist ein Neustart nötig.
 | Sollte das Fenster anzeigen, dass keine weiteren Treiber gefunden wurden, ist das perfekt!
 | Sie haben hier nichts weiter zu tun.
 
-.. tip:: text
+.. tip:: 
 
-    Drucker Treiber werden an anderer Stelle installiert. Dies ist im Kaptitel ``Drucker`` näher beschrieben.
+    Drucker Treiber werden an anderer Stelle installiert. Dies ist im Kapitel ``Drucker`` näher beschrieben.
 
 
 Aktualisierungen
 ----------------
 Öffnen Sie im Menü das Programm ``Aktualisierungsverwaltung``.
 Sollten neue Aktualisierungen verfügbar sein, ist es jetzt ein guter Zeitpunkt, diese zu installieren.
-In der Regel sollten Sie alle angebotenen Aktualisierungen ausführen und keine von diesen abwählen.
+In der Regel sollten Sie alle angebotenen Aktualisierungen durchführen und keine von diesen abwählen.
 
 
 Systemschnappschüsse
@@ -73,7 +73,7 @@ Installieren Sie dazu das Programm ``gufw`` (heißt auch: ``Firewall Configurati
 
 .. note:: 
 
-    Befinden Sie sich hingegen nur bei Ihnen Zuhause, ist dies nicht nötig, solange sie Ihren lokalen Geräten allen vertrauen.
+    Befinden Sie sich hingegen nur bei Ihnen Zuhause, ist dies nicht nötig, solange Sie Ihren lokalen Geräten allen vertrauen.
     Ihr Internet-Router schützt Sie in der Regel bereits vom Rest des Internets.
 
 Sprache

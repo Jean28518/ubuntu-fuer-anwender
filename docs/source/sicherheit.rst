@@ -8,14 +8,14 @@ die in alten Programm-Versionen enthalten sind.
 Deswegen sind Aktualisierungen sehr wichtig.
 
 Es ist empfohlen mindestens einmal in der Woche Aktualisierungen auszuführen.
-Ubuntu bietet im Programm `Anwendungen & Aktualisierungen` im Reiter `Aktualisierungen` die Möglichkeit an, 
+Ubuntu bietet im Programm ``Anwendungen & Aktualisierungen`` im Reiter ``Aktualisierungen`` die Möglichkeit an, 
 Sicherheitsaktualisierungen automatisch durchzuführen. 
-Wir empfehlen, diese Option auf `automatisch herunterladen und aktualisieren` zu stellen.
+Wir empfehlen, diese Option auf ``automatisch herunterladen und aktualisieren`` zu stellen.
 
 Wine deinstallieren
 -------------------
 Wine ist eine Laufzeitumgebung für Windows Programme.
-Windows Viren können so also doch auf Linux funktionieren, wenn wine installiert sein sollte.
+Windows Viren können so also doch auf Linux funktionieren, wenn Wine installiert sein sollte.
 Sollten Sie also nicht aktiv ein Windows Programm auf Linux nutzen,
 Deinstallieren Sie Wine.
 
@@ -39,7 +39,7 @@ Ein Virenprogramm bietet keinen zusätzlichen Schutz:
 
 - Wenn Ihr Linux aktuell ist,
 - Sie nur so viele Anwendungen wie nötig auf Ihren Linux installiert haben,
-- Sie nicht wahllos externe Anwendungen (außerhalb der Annwenndungsverwaltung) installieren
+- Sie nicht wahllos externe Anwendungen (außerhalb der Annwendungsverwaltung) installieren
 - und Sie keine unbekannten Anhänge aus E-Mails öffnen.
 
 Auch wenn Sie einen Fehler machen, versagen in der Paxis leider noch häufig genug Virenschutzprogramme.

@@ -22,15 +22,16 @@ Dies kann man ganz einfach in den Netzwerkeinstellungen unter dem Zahnrad ablese
 
 Rechner vor Ort
 ^^^^^^^^^^^^^^^
-Auf diesem Rechner muss wir lediglich das Programm ``Remmina`` installiert sein.
+Auf diesem Rechner muss das Programm ``Remmina`` installiert sein.
 Bei Ubuntu ist das Programm schon vorinstalliert.
 
-In Remmina fügen wir eine neue Verbindung links oben über das '+' hinzu.
-Als Protokoll wählen wir ``RDP - Remote Desktop Protokoll``
-Unter 'Server' tragen wir Dir IP-Adresse des entfernten Rechners ein.
-Als Benutzername und Passwort tragen wir die ganz normalen Anmeldedaten des entfernten Rechners ein. (Benutzername muss klein geschrieben sein)
-Unter Auflösung ist die Einstellung ``Auflösung des Client verwenden`` empfohlen.
-Am Ende können Sie auf ``Speichern und verbinden`` klicken.
+In Remmina fügen wir eine neue Verbindung links oben über das '+' hinzu:
+
+- Als Protokoll wählen wir ``RDP - Remote Desktop Protokoll``
+- Unter 'Server' tragen wir Dir IP-Adresse des entfernten Rechners ein.
+- Als Benutzername und Passwort tragen wir die ganz normalen Anmeldedaten des entfernten Rechners ein. (Benutzername muss klein geschrieben sein)
+- Unter Auflösung ist die Einstellung ``Auflösung des Client verwenden`` empfohlen.
+- Am Ende können Sie auf ``Speichern und verbinden`` klicken.
 
 Ein korrektes Einstellungsfenster sieht so aus:
 
@@ -39,6 +40,7 @@ Ein korrektes Einstellungsfenster sieht so aus:
 
 Die Remote-Ansicht von Ubuntu sieht leicht anders aus. Bitte lassen Sie sich nicht davon irritieren. 
 Zum Menü kommen sie immer über ``Aktivvitäten`` in der linken oberen Ecke.
+Beenden tut man die Verbindung, in dem man sich "normal" abmeldet.
 Möchte man sich danach wieder vor Ort auf dem Rechner anmelden, ist es empfohlen, den Rechner zuvor einmal neuzustarten.
 
 .. image:: images/ubuntu_remote.png

@@ -18,7 +18,7 @@ Drucker hinzufügen
 - Wählen Sie den Drucker in der Liste aus. Und klicken sie ``Hinzufügen``.
 - In der Regel wird der Treiber automatisch erkannt und der Drucker wird automatisch eingerichtet.
 - Andernfalls wird im nächsten Schritt gefragt, ob ein Duplexer installiert ist. Kann der Drucker beidseitig Drucken, ist diese Option auszuwählen.
-- Im nächsten Fenster kann man einen Namen für den Drucker definieren, dies ist rein kosmetischer Natur, kann aber sehr hilfreich sein.
+- Im nächsten Fenster kann man einen Namen für den Drucker definieren, dieser ist rein kosmetischer Natur, kann aber sehr hilfreich sein.
 
 
 .. note:: 

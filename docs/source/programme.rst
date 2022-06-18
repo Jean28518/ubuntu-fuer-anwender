@@ -22,7 +22,7 @@ könnte das auf diesen Sachverhalt zurückzuführen sein.
 
 Generell spricht nichts gegen die Verwendung von solchen Ausführungen,
 man sollte es aber im Hinterkopf behalten, dass das eine inoffizielle Ausführung ist.
-Meistens kriegt man nichtmal mit, dass dies eine inoffizielle Ausführung ist.
+Häufig bemerkt man allerdings als Endnutzer keinen Unterschied.
 
 Möchte man hingegen die offizielle Version installieren,
 werden Details dazu im nächsten Abschnitt ``.deb Dateien aus dem Internet`` beschrieben.
@@ -93,7 +93,7 @@ Flatpak
 ^^^^^^^
 Dies ist das "freiere" Pendant zu Ubuntus Snap Universum, auf das der Rest der Linux-Welt setzt.
 Es hat ungefähr die gleichen Funktionen wie Snap und funktioniert ähnlich.
-Das "Zuhause" von Flatpak ist das `Flathub <https://www.flathub.org>`_, wo so ziemlich alle restlichen Anwendungen in der Linux-Welt finden lassen.
+Das "Zuhause" von Flatpak ist das `Flathub <https://www.flathub.org>`_, wo sich so ziemlich alle restlichen Anwendungen in der Linux-Welt finden lassen.
 Es ist standardmäßig nicht auf Ubuntu installiert
 
 Dennoch sind keine Flatpak-Anwendungen direkt über Snap installierbar.
@@ -107,15 +107,14 @@ In diesem Kurs werden vereinzelt Anwendungen vorgestellt, welche sich in Ubuntu 
     Das liegt daran, dass Flatpak und das zugehörige Flathub von unabhängigen Personen entwickelt und gepflegt wird.
     Außerdem besteht die Möglichkeit sein eigenes kleines Flathub aufzubauen, was auch manche Distributionen wie Fedora machen.
     Doch im Gegenzug werden die meisten großen proprietären Anwendungen nur im Snap-Store offiziell angeboten, 
-    da sich die Firma hinter Ubuntu sehr darum gekümmert hat und die großen Software-Herstellern dabei unterstützt hat.
+    da sich die Firma hinter Ubuntu sehr darum gekümmert hat und die großen Software-Hersteller dabei unterstützt hat.
 
 | **Flatpak auf Ubuntu einrichten:**
-| - In Ubuntu-Software nach ``gnome-software`` suchen und dies ggf installieren. 
+| - In Ubuntu-Software nach ``gnome-software`` suchen und dies ggf. nachinstallieren. 
 | - Unter ``Erweiterungen`` im gnome-software Eintrag die Flatpak Unterstützung installieren (siehe Abbildung) 
 | - Installieren Sie folgende Datei: `https://flathub.org/repo/flathub.flatpakrepo <https://flathub.org/repo/flathub.flatpakrepo>`_ (öffnen mit ``Anwendungsinstallation``) 
 | - Den Rechner neustarten. 
 | Danach kann man in der Anwendung ``Software`` (nicht Ubuntu-Software!!) Flatpak-Pakete installieren. 
-| Es empfiehlt sich, Ubuntu-Software (heißt eigentlich "Snap Store") zu deinstallieren, da unter ``Software`` ebenfalls alle anderen Pakete verfügbar sind.
 
 .. image:: images/install_flatpak_plugin.png
 
@@ -130,17 +129,16 @@ die offizielle Version eines Programms zu installieren.
     Man sollte unbedingt auf die Quelle der .deb Datei achten. 
     Bitte nur ausschließlich .deb Dateien von offiziellen Herstellerseiten installieren.
     Eine .deb Datei kann ALLES mit dem System machen:
-    Das Zerstören des kompletten Systems, Wiederherstellungspunken und aller persönlicher Dateien kann man extrem schnell erreichen.
+    Das Zerstören des kompletten Systems, Wiederherstellungspunkten und aller persönlicher Dateien kann man extrem schnell erreichen.
 
 **Sollte die .deb Version der Herstellerseite keine nennenswerten Vorteile bringen,
-wird dringends von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.**
+wird dringendst von der Installation abgeraten, da das Sicherheitsrisiko für das System extrem hoch sein kann.**
 
 Für manche Anwendungen ist aber eine .deb Version unumgänglich, wenn man die Anwendungen nutzen möchte:
-Beispielsweise wären das:
+Beispielsweise wäre das:
 
-- Google Chrome
 - Softmaker Office
-- weitere Anwendungen, die man nicht in Ubuntu-Software finden kann und keine Fremdquellen unterstützen.
+- weitere Anwendungen, die man nicht in Ubuntu-Software oder Software finden kann.
 
 Um eine .deb Datei zu installieren, reicht es, diese herunterzuladen.
 Danach sollte man diese mit ``Software-Installation`` starten.
@@ -156,7 +154,7 @@ und diese in den Datei-Eigenschaften unter Zugriffsrechte als ausführbar zu mar
 Danach kann man das Programm durch einen Doppelklick auf die AppImage Datei starten.
 
 .. tip:: 
-    Man kann in den Menüeinstellungen einen neuen Menü-Eintrag für das Programm definieren.
+    Man kann in den Menüeinstellungen (``alacarte``, muss nachinstalliert werden) einen neuen Menü-Eintrag für das Programm definieren.
     Dann kann man ein AppImage wie alle übrigen Anwendungen über das Startmenü starten.
 
 .. note:: 
@@ -174,7 +172,7 @@ was bei .deb Dateien aus dem Internet normalerweise nicht der Fall ist.
     Manche .deb Dateien richten automatisch eine Fremdquelle ein und stellen sicher, dass das Programm automatisch Updates erhält.
     Google Chrome macht dies beispielsweise. (Dies muss nicht unbedingt ein PPA sein, wäre aber hier etwas zu weit ausgeholt)
 
-Um ein PPA Ubuntu hinzuzufügen, muss hier wieder ein Terminal-Befehl eingegeben werden. Ein Beispiel wäre:
+Um ein PPA Ubuntu hinzuzufügen, muss hier ein Terminal-Befehl eingegeben werden. Ein Beispiel wäre:
 ``sudo add-apt-repository ppa:lutris-team/lutris``
 
 Anschließend kann man die Anwendung aus dem PPA ganz einfach in Ubuntu-Software finden.
@@ -186,10 +184,10 @@ Anschließend kann man die Anwendung aus dem PPA ganz einfach in Ubuntu-Software
 Manchmal bieten Programm-Hersteller nur eine .tar.gz oder .zip Datei an.
 Dies geschieht sehr selten und wird einem im regulären Linux-Alltag eigentlich nie begegnen.
 
-Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbare Datei (=meist keine Dateiendung), die man dann starten kann.
+Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbare Datei (=meist keine Dateiendung oder ``.run``), die man dann starten kann.
 
 .. tip:: 
-    Man kann in den Menüeinstellungen einen neuen Menüeintrag für das Programm definieren.
+    Man kann in den Menüeinstellungen einen neuen Menüeintrag für das Programm definieren. (Programm: ``alacarte``)
     Dann kann man dies wie alle anderen Anwendungen über das Startmenü starten.
 
 .. note:: 
@@ -197,4 +195,4 @@ Solche Dateien sollte man entpacken. Meist findet man dann dort eine ausführbar
 
 Sollte man keine ausführbare Datei finden und liegt stattdessen eine Datei mit dem Namen
 ``Makefile`` vor, muss man dieses Programm erst kompilieren. 
-Dies wird allerdings im *Linux für Fortgeschrittene* Kurs behandelt.
+Dies wird allerdings im **Linux für Fortgeschrittene** Kurs behandelt.

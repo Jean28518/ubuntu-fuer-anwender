@@ -49,17 +49,20 @@ Ein Brwoser-Addon gibt es auch dazu, was sehr zu empfehlen ist.
     - Wenn möglich, empfehlen wir die Aktivierung der Zwei Faktor Authentifizierung
     - Verwenden Sie für Bitwarden ein sicheres Passwort mit Sonderzeichen, welches keine auf Sie rückschließende Komponenten beinhaltet.
 
+.. tip:: 
+    Wollen Sie Ihre Passwörter nicht automatisch snchronisieren wollen, ist KeePassXC eine gute Alternative, dennoch im Vergleich
+    nicht so benutzerfreundlich wie Bitwarden.
+
+
 Warpinator
 ----------
-Mit diesem Programm können Sie sehr einfach Dateien im lokalen Netzwerk verschicken.>
+Mit diesem Programm können Sie sehr einfach Dateien im lokalen Netzwerk verschicken.
 Es ist lediglich nur unter dem Flathub verfügbar (siehe Kapitel Programme installieren)
 Das Programm gibt es für Linux, Windows, Android und in Zukunft auch für iOS.
 
 .. note:: 
     Hat man die Firewall aktiv, muss man in den Firewall-Einstellungen die Ports ``42000 (TCP, UDP)`` und ``42001 (TCP)`` freischalten.
 
-    .. image:: images/warpinator_firewall.png
-    
 
 Startmedienersteller
 ----------------------
@@ -70,8 +73,7 @@ Damit können Sie dann auf anderen Rechnern bspw. Linux installieren.
 Laufwerke
 ---------
 Mit diesem Programm können Sie Partitionen auf Ihrer Fesplatte bearbeiten und bspw. verschiedene Einhängeoptionen vornehmen.
-
-Alternativ können Sie auch USB-Sticks formatieren und iso-Abbilder schreiben.
+Alternativ können Sie auch USB-Sticks formatieren und iso-Abbilder (für bspw. neue Installationen) schreiben.
 
 
 Shotwell
@@ -110,9 +112,6 @@ Sie können dies entweder über die ``Notizen`` App machen, oder über Nextcloud
 Bildschirmfoto
 --------------
 Mit diesem Programm können Sie einfach Screenshots erstellen.
-
-1. Mit ``Druck`` können Sie einen Screenshot von der gesamten Bildschirmfläche erstellen.
-2. Mit ``Alt`` + ``Druck`` können Sie einen Screenshot vom aktuellen Fenster erstellen.
-3. Mit ``Shift`` + ``Druck`` können Sie eigenen Bildschirmbereich festelegen, der abfotografiert werden soll.
+Mit ``Druck`` können Sie den Screenshot-Dialog aufrufen.
 
 Möchten Sie erweitere Screenshots erstellen, empfehlen wir das Programm ``Flameshot`` aus Ubuntu-Software.

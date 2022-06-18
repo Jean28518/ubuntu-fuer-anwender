@@ -41,17 +41,18 @@ Allerdings sind die Dateien so nicht direkt heruntergeladen sondern nur direkt a
 Arbeitet man viel mit den Dateien in der Nectcloud ist dringend empfohlen, sich den Nextcloud Desktop Synchisations-Client einzurichten.
 Das Programm kann man entweder unter ``Nextcloud Desktop Client`` oder unter ``Nextcloud Client`` finden (inoffiziell).
 Offiziell kann man den Nextcloud-Desktop Client hier herunterladen: `nextcloud.com <https://nextcloud.com/install/#install-clients>`_ 
-Die Anmeldung und Einrichtung sollte selbsterklärend sein. Empfohlen wird die inoffizielle Variante, da sich diese technisch nicht vom original unterscheiden und einfacher handzuhaben sind.
+Die Anmeldung und Einrichtung sollte selbsterklärend sein. Empfohlen wird die inoffizielle Variante, 
+da sich diese technisch nicht vom original unterscheidet und einfacher handzuhaben ist.
 
 .. tip:: 
-    Nach der Einrichtung ist es empfohlen, unter ``Startprogramme`` den Nextcloud Client hinzuzufügen. Damit wird beim Anmelden der Synchisations-Client direkt gestartet.
+    Nach der Einrichtung ist es empfohlen, unter ``Startprogramme`` den Nextcloud Client hinzuzufügen. 
+    Damit wird beim Anmelden der Synchronisations-Client direkt gestartet.
 
 
 Google
 ------
 
 Das Hinzufügen sollte unter ``Online-Konten`` selbstverständlich sein.
-
 Daraufhin können Kalender, Kontakte, Fotos, Dateien, Emails und Drucker von Ubuntu aus zugegriffen werden.
 
 
@@ -59,7 +60,7 @@ Microsoft
 ---------
 
 Unter Microsoft können lediglich E-Mails automatisch hinzugefügt werden. Dafür wird bspw. das Programm Evolution benötigt.
-Empfohlen wird daher diese Integration nicht.
+Empfohlen wird daher diese Integration aktuell nicht.
 
 
 Thunderbird
@@ -71,14 +72,14 @@ Thunderbird ist eines der besten Mail-Programme unter Linux. Wenn Sie es bis jet
     Um Ihre Mail-Adresse hinzuzufügen, müssen Sie sicherstellen, dass bei Ihrem Mail-Account die IMAP und SMTP Option aktiviert sind.
     Das können Sie in der Regel bei Ihrem Mail-Anbieter unter 'Sicherheit' oder 'Drittanbieter Apps' einstellen.
 
-Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend
+Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend.
 
 Adressbuch der Nextcloud nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/thunderbird-carddav.png
 
-- Öffnen Sie wie im Bild gezeigt den "Hinzufügen"-Diagog.
+- Öffnen Sie wie im Bild gezeigt den "Hinzufügen"-Dialog.
 - Tragen Sie Ihren Nextcloud-Benutzernamen und die Adresse Ihrer Nextcloud ein. Beispiel: ``https://cloud.example.com/``
 - Geben Sie das Passwort Ihres Nextcloud-Kontos im nächsten Dialog ein.
 - Im letzten Dialog können Sie die Adressbücher auswählen. Es wird empfohlen, ``Zuletzt kontaktiert`` abzuwählen. Klicken Sie daraufhin auf ``Weiter``. 

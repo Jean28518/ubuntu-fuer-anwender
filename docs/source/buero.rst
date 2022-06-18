@@ -15,7 +15,7 @@ Empfohlene Büroanwendungen
 - Team-Chat: **Rocket.Chat**
 - Projektmanagement: **OpenProject**
 - Synchronisation von Daten, Kalender, Organisation von Teams, ...: **Nextcloud**
-- Virtuelle Klebezettel: **Notizen** (sticky)
+- Notizen: **Nexcloud Notes**, alternativ: **Simplenote** oder **Notizen**  (tomboy)
 
 Alternativen zu Microsoft Office
 --------------------------------
@@ -26,7 +26,7 @@ Auch Sie werden Ihren vollwertigen Ersatz finden.
 
 Libre Office
 ^^^^^^^^^^^^
-Wir empfehlen ganz klar Libre Office. Es ist bei Linux Mint bereits vorinstalliert.
+Wir empfehlen ganz klar Libre Office. Es ist bei Ubuntu bereits vorinstalliert.
 Libre Office hat Tonnen von Funktionen und deckt nahezu jeden erdenklichen Anwendungsfall ab:
 Man kann Präsentationen, Formulare, Rechnungen, Vorlagen, Dokumentationen, funktionale Tabellen, Mathematische Formeln, Postkarten, Briefe und vieles mehr erstellen.
 
@@ -37,6 +37,12 @@ Man kann Präsentationen, Formulare, Rechnungen, Vorlagen, Dokumentationen, funk
 Einen Nachteil hat Libre Office jedoch: Die Kompatibilität zu Microsoft-Formaten wie .docx, .ppt oder .xls ist leider nicht so hoch.
 Sollte man an diese angewiesen sein, empfehlen wir stattdessen entweder die  `Online-Variante von MS Office <https://www.office.com/>`_,
 `Softmaker Office <https://www.softmaker.de/softmaker-office>`_ oder `Only Office <https://www.onlyoffice.com/de/download-desktop.aspx?from=desktop>`_.
+
+Only Office
+^^^^^^^^^^^
+Ist man auf .docx .ppt und .xls Formate angewiesen, könnte `Only Office <https://www.onlyoffice.com/de/download-desktop.aspx?from=desktop>` Ihre Lösung sein.
+Ursprünglich wurde es nur für Webbrowser entwickelt, hat aber seit einiger Zeit auch eine Desktop-Version.
+Das Aussehen ähnelt hier stark MS Office. Ebenso wird nahezu jede Funktion unterstützt. Das Projekt ist Open Source und frei erhältlich.
 
 Softmaker Office
 ^^^^^^^^^^^^^^^^
@@ -52,7 +58,6 @@ Weitere Alternativen zu MS Office sind unter anderem:
 - `Online-Variante von MS Office <https://www.office.com/>`_
 - `Google Docs <https://www.google.de/intl/de/docs/about/>`_
 - `WPS Office <https://www.wps.com/de-DE>`_
-- `Only Office <https://www.onlyoffice.com/>`_
 
 
 Microsoft Schriftarten installieren

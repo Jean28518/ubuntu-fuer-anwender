@@ -44,7 +44,7 @@ Favoriten
 Sie können beliebige Dateien oder Ordner als Favorit markieren (Rechtsklick).
 Favoriten erhalten einen eigenen Eintrag im Dateimanager.
 
-Wir empfehlen, häufig verwendete Dateien als Favoriten abzuspeichern. Ordner sollten im Besten Fall nur als Lesezeichen abgespeichert werden.
+Wir empfehlen, häufig verwendete Dateien als Favoriten abzuspeichern. Ordner sollten im besten Fall nur als Lesezeichen abgespeichert werden.
 
 Verknüpfungen
 -------------

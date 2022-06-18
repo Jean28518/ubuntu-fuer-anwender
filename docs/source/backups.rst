@@ -59,7 +59,7 @@ Einrichtung von Datensicherungen (DejaDup)
 - Anschließend wird die erste Datensicherung angelegt. Dieser Prozess kann länger dauern.  
 
 .. note:: 
-    Sollte die Datensicherung beim Ersten Mal fehlschlagen, stellen Sie sicher, dass Sie Schreibrechte im ausgewählten Sicherungsort haben.
+    Sollte die Datensicherung beim ersten Mal fehlschlagen, stellen Sie sicher, dass Sie Schreibrechte im ausgewählten Sicherungsort haben.
     Sollte dies nicht der Fall gewesen sein, müssen Sie unter Umständen die Einrichtung wiederholen.
 
 Durchführung
