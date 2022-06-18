@@ -8,15 +8,15 @@ Festplatte formatieren
 Formatieren Sie die externe Festplatte mit dem Programm ``Laufwerke``. 
 Die nachfolgenden Bilder beschreiben die einzelnen Schritte.
 
-.. image:: images/formatierung_laufwerke_1
+.. image:: images/formatierung_laufwerke_1.png
 
-.. image:: images/formatierung_laufwerke_2
+.. image:: images/formatierung_laufwerke_2.png
 
-.. image:: images/formatierung_laufwerke_3
+.. image:: images/formatierung_laufwerke_3.png
 
-.. image:: images/formatierung_laufwerke_4
+.. image:: images/formatierung_laufwerke_4.png
 
-.. image:: images/formatierung_laufwerke_5
+.. image:: images/formatierung_laufwerke_5.png
 
 Wir setzen auf das darunterliegende Programm ``borg``.
 Es komprimmiert Backups, kann diese verschlüsseln

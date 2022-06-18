@@ -76,7 +76,7 @@ Das Hinzufügen eines neuen Mail-Kontos zu Thunderbird ist selbsterklärend
 Adressbuch der Nextcloud nutzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/thunderbird-carddav
+.. image:: images/thunderbird-carddav.png
 
 - Öffnen Sie wie im Bild gezeigt den "Hinzufügen"-Diagog.
 - Tragen Sie Ihren Nextcloud-Benutzernamen und die Adresse Ihrer Nextcloud ein. Beispiel: ``https://cloud.example.com/``
