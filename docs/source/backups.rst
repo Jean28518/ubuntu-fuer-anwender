@@ -4,11 +4,11 @@ Backups sind essentiell. Sollten Sie mal einen Fehler machen oder Ihr Rechner/Sy
 Dafür empfehlen wir dringend eine große externe Festplatte, die idealerweise in einem anderen Gebäude oder Zimmer gelagert wird.
 
 Wir setzen auf das in Ubuntu enthaltene Programm ``DejaDup (= Datensicherungen)``.
-Es komprimiert Backups, kann diese verschlüsseln und speichert in mehreren Iterationen nur veränderte Daten.
+Es komprimiert Backups und kann diese verschlüsseln.
 Es nutzt als darunterliegende Technologie ``Duplicity``, welche effizient auf ``rsync`` aufbaut.
 
 .. note:: 
-    Jedes BackUp ist auch bei unveränderten Dateien gleich groß, es findet also keine Deduplizierung der Versionen statt.
+    Jedes BackUp ist auch bei unveränderten Dateien gleich groß, es findet hier also keine Deduplizierung der Versionen statt.
     Setzen Sie auf Deduplizierung, empfehlen wir das Programm ``Pika Datensicherung`` welches auf ``borg`` aufbaut.
 
 
@@ -44,19 +44,20 @@ Einrichtung von Datensicherungen (DejaDup)
     Sollten Sie Verknüpfungen in Ihrem persönlichen Ordner haben, werden diese vom BackUp-Programm nicht verfolgt.
     Denken Sie dann daran, eventuell eine andere Partition zusätzlich zum BackUp hinzuzufügen.
 
+
 - Bei ``Zu ignorierende Ordner`` empfehlen wir zusätzlich, folgende Ordner auszuschließen (falls vorhanden):
     - ``Warpinator``
     - ``Tmp``
     - ``VirutalBox VMs``
     - ``.steam``
 - Wählen Sie als Sicherungsort Ihre externe Fesplatte. 
-- Sollten Sie sensible Daten haben, wählen Sie verschlüsseln Sie Ihre Backups mit einem Passwort, andernfalls erlauben Sie die Wiederherstellung ohne Passwort.
+- Sollten Sie sensible Daten haben, verschlüsseln Sie Ihre Backups mit einem Passwort, andernfalls erlauben Sie die Wiederherstellung ohne Passwort.
 
 .. warning:: 
     Sollten Sie bei einem verschlüsselten Backup Ihr Passwort vergessen/verlieren, gibt es keine Möglichkeit, das Backup wiederherzustellen.
 
 - Anschließend wird die erste Datensicherung angelegt. Dieser Prozess kann länger dauern.  
-- 
+
 .. note:: 
     Sollte die Datensicherung beim Ersten Mal fehlschlagen, stellen Sie sicher, dass Sie Schreibrechte im ausgewählten Sicherungsort haben.
     Sollte dies nicht der Fall gewesen sein, müssen Sie unter Umständen die Einrichtung wiederholen.
