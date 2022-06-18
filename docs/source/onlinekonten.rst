@@ -54,11 +54,6 @@ Das Hinzufügen sollte unter ``Online-Konten`` selbstverständlich sein.
 
 Daraufhin können Kalender, Kontakte, Fotos, Dateien, Emails und Drucker von Ubuntu aus zugegriffen werden.
 
-.. tip:: text
-
-
-
-
 
 Microsoft
 ---------
