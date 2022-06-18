@@ -99,8 +99,8 @@ muss sich der Benutzer mit einem auf dem Rechner definierten Benutzerkonto anmel
     Wir nutzen im Alltag die Ordner-Freigabe nicht. Stattdessen setzen wir hier auf Nextcloud.
 
 
-Dateimanagment
---------------
+Dateimanagement
+---------------
 Hier ein paar Tipps, die langfristig die Produktivität steigern können. Außerdem dankt dies Ihre Backup-Platte und Ihr zukünftiges Ich.
 
 - Versuchen Sie, die vorgegebene Struktur einzuhalten und pro Projekt/Arbeitsauftrag einen eigenen Ordner anzulegen. Es lohnt sich auch, die einzelnen Projekte in Jahre und/oder Monate einzuordnen.
