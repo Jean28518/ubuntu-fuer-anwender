@@ -73,7 +73,7 @@ Installieren Sie dazu das Programm ``gufw`` (heißt auch: ``Firewall Configurati
 
 .. note:: 
 
-    Befinden Sie sich hingegen nur bei Ihnen zuhause, ist dies nicht nötig, solange sie Ihren lokalen Geräten allen vertrauen.
+    Befinden Sie sich hingegen nur bei Ihnen Zuhause, ist dies nicht nötig, solange sie Ihren lokalen Geräten allen vertrauen.
     Ihr Internet-Router schützt Sie in der Regel bereits vom Rest des Internets.
 
 Sprache
