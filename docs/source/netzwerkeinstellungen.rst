@@ -7,7 +7,8 @@ und man vieles als Anwender nie brauchen wird, beschränken wir uns hier auf ree
 
 WLAN Hotspot
 ------------
-To be Done
+Es kann ein WLAN Hotspot erstellt werden, auf diesen sich weitere Geräte verbinden können, um ins Internet oder lokal zu kommunizieren.
+Die Einrichtung ist selbsterklärend und kann in den Einstellungen im Abschnitt ``Netzwerk`` gefunden werden.
 
 
 VPN einrichten
